@@ -38,16 +38,7 @@ h1{
 	text-align: center;
 }
 
-@media screen and (min-width: 992px)
-{
-	.col-1,.col-2,.col-3{
-		width: 30%;
-		margin: 1%;
-	}
-	.Common_attributes{
-	width: 20%;
-	}
-}
+
 
 
 @media (min-width: 992px) {
