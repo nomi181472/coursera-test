@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+.Common{
+	background-color: gray;
+	border-style: solid;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.Chicken_Heading{
+	background-color: pink;	
+}
+.Common_attributes{
+	float: right;
+	border-collapse: collapse;
+	border-style: solid;
+	text-align: center;
+	font-weight: bold;
+	width: auto;
+}
+.Beef_Heading{
+	background-color: #de4463;
+}
+.Sushi_Heading{
+	background-color: #ffefa0;
+}
+
+
+
+.Common_Definition{
+	padding: 0.8em;
+}
+
+h1{
+	text-align: center;
+}
+
+@media screen and (min-width: 992px)
+{
+	.col-1,.col-2,.col-3{
+		width: 30%;
+		margin: 1%;
+	}
+	.Common_attributes{
+	width: 20%;
+	}
+}
+
+
+@media (max-width:768px,)and (min-width: 991px,)
+{
+	.col-1,.col-2{
+		width: 30%;
+		margin: 1%;
+	}
+	.col-3{
+		width: 60%;
+		margin: 1%;
+	}
+	
+}
+@media screen and (max-width: 767px)
+{
+	.col-1,.col-2,.col-3{
+		width: 30%;
+		margin: 1%;
+		width: 20em;
+	}
+	
+}
